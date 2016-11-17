@@ -1,0 +1,342 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #D2B48C;
+    /*width: 1000px;*/
+}
+
+.container{
+    
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+    
+}
+
+
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    float: left;
+    margin-top: 5px;
+    
+    
+}
+
+body{
+    width: 1000px;
+    background: #f9f9f9;
+    
+}
+
+h1{
+    font-size: 40px;
+    padding: 8px;
+    margin-bottom: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 3px;
+}
+
+h2{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Merriweather', serif;
+
+}
+
+h3{
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+
+#main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#course{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header{
+    width: 1000px;
+    overflow: hidden;
+    background: #D2B48C;
+    padding: 6px 0px;
+    position: fixed;
+    float: left;
+    z-index: 2;
+}
+
+#header h1{
+    float: left;
+    color: #f9f9f9;
+    margin: 5px 20px 0;
+}
+
+nav{
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    float: left;
+    margin-top: 5px;
+}
+
+nav ul > li {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+.right-box{
+    float: left;
+    width: 100%;
+    
+}
+
+
+nav a{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    font-family: 'Merriweather', serif;
+    transition: 0.3s;
+    letter-spacing: 3px;
+    float: left;
+}
+
+nav a:hover{
+    border-bottom: 2.5px solid #f9f9f9;
+}
+
+.key-visual{
+    background: url(DS5_2310.JPG);
+    background-size: cover;
+    min-height: 450px;
+    position: relative;
+    margin-top: 25px;
+    
+}
+
+
+
+.wrapper{
+    width: 1000px;
+}
+
+
+.setu{
+    background-color: #D2B48C;
+    height: 200px;
+    margin-bottom: 20px;
+    
+}
+
+.course{
+    margin: 0 auto;
+    width: 700px;
+    height: 350px;
+    margin-top: 70px;
+}
+
+
+
+
+
+.course img{
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+.course .last{
+    padding-right: 0px;
+}
+
+.animation{
+    position: relative;
+    width: 200px;
+    float: left;
+    color: white;
+    margin-right: 33px;
+    
+    
+}
+
+.course .animation .caption{
+    position: absolute;
+    background: #fff;
+    height: 200px;
+    width: 200px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    border-radius: 50%;
+    
+}
+
+.course .animation .caption:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+    
+}
+
+.course .animation .caption h2{
+    margin-top: 70px;
+    background: #fff;
+    width: 80px;
+    color: #663300;
+    font-size: 20px;
+}
+
+#tea-box{
+    width: 450px;
+    height: 250px;
+    background: #fff;
+    float: left;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#tea-box h3{
+    border-radius: 10px;
+    color: #d2b48c;
+    background: #fff;
+    font-size: 25px;
+    
+}
+
+#tea-box p{
+    background: #fff;
+    color: #d2b48c;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+
+.schedule{
+    margin-top: 100px;
+}
+
+.introduce{
+    margin-top: 50px;
+    margin: auto;
+}
+.introduce h3{
+    text-align: left;
+     color: #fff;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    width: 450px;
+    
+}
+
+.introduce h4{
+    text-align: left;
+     color: #fff;
+    padding: 15px;
+    font-size: 17px;
+    font-family: 'Merriweather', serif;
+    width: 450px;
+    
+}
+.text-right{
+    float: left;
+}
+
+.introduce img{
+    float: left;
+    border-radius: 50%;
+    max-height: 100px;
+    
+}
+
+.title{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.face{
+    margin-left: 300px;
+}
+
+#otya{
+    margin-top:-88px;
+    padding-top:88px;
+    height: 550px;
+}
+
+#sweet{
+    height: 550px;
+}
+
+#bread{
+    height: 550px;
+}
+
+.button{
+    padding-left: 370px;
+}
+
+.button a{
+     font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    font-family: 'Merriweather', serif;
+    transition: 0.3s;
+    letter-spacing: 3px;
+    float: left;
+    border: 2px solid #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.button a:hover{
+    transition: 0.3s;
+    border-bottom: 4px solid #ffffff;
+}
+
+#access{
+    height:350px;
+    margin: auto;
+}
+
+.schedule img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.tea{
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+}
+

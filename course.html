@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>TOP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    
+    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<!-- ＃リンクのスムーズスクロール -->
+<script>
+$(function(){
+   // #で始まるリンクをクリックしたら実行されます
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+
+
+</head>
+<body>
+    <div class="wrapper">
+    
+       <div id="header">
+        <div class="content">
+            <h1>K's tea break</h1>
+            <nav>
+               <ul>
+                <li><a href="index.html">TOP</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="schedule.html">SCHEDULE</a></li>
+                <li><a href="index.html#access">ACCESS</a></li>
+                <li><a href="?">BLOG</a></li>
+                </ul>
+            </nav>  
+        </div>
+    </div>
+    
+  
+    
+   
+    
+    <div class="container">
+        <div id="course">
+        　
+           
+        
+           
+           <div class="course">
+              
+              <div class="animation">
+               <a href="#otya"><img src="otya.png" alt="">
+               <div class="caption">
+                   <h2>紅茶</h2>
+               </div>
+               </a>
+
+               </div>
+               
+               <div class="animation">
+               <a href="#sweet"><img src="suko-n.png" alt="">
+               <div class="caption">
+                   <h2>英国菓子</h2>
+                   
+               </div>
+                   </a>
+               
+               </div>
+               
+               <div class="animation">
+               <a href="#bread"><img src="pann.png" alt="">
+               <div class="caption">
+                   <h2>パン</h2>
+               </div>
+               </a>
+               </div>
+               
+               
+               
+           </div>
+               
+               <div id="otya">
+                   <div class="title">Tea Course</div>
+                   <div class="tea">
+                       <img src="tea.nov.png" alt="" width="450px">
+                   </div>
+                   
+                   <div id="tea-box">
+                       <h3>ホットティーの入れ方</h3>
+                       <p>紅茶を入れるときに絶対に気をつけなければいけないことがあることを知っていますか？？
+                       <br>
+                       間違えた知識なども世の中で回っています。
+                       <br>
+                       紅茶協会が教えていることをわかりやすくお伝えします！！
+                    　　</p>
+                   </div>
+                   
+                   <div id="tea-box">
+                       <h3>アイスティーの入れ方</h3>
+                       <p>ホットティーの入れ方とアイスティーの入れ方の違い。
+                       <br>
+                       アイスティーの入れ方にも何種類かあるのをご存知でしょうか？
+                       <br>
+                       自分に合う紅茶の入れ方を探してみてはいかがでしょうか。</p>
+                   </div>
+                   
+                   <div id="tea-box">
+                       <h3>季節のアレンジティー ▶︎ ホット</h3>
+                       <p>aaa</p>
+                   </div>
+                   
+                   <div id="tea-box">
+                       <h3>季節のアレンジティー ▶︎ アイス</h3>
+                       <p>aaa</p>
+                   </div>
+               </div>
+                
+                
+                
+                <div id="sweet">
+                   <div class="title">Sweet Course</div>
+                   
+                   <div id="tea-box">
+                       <h3>スコーン</h3>
+                       <p>イギリスのティータイムではおなじみのスコーン。しかしあまりスコーンは知っていても食べたことはない方が多いです。</p>
+                   </div>
+                   
+                   <div id="tea-box">
+                       <h3>ビクトリアンスポンジケーキ</h3>
+                       <p>aaa</p>
+                   </div>
+                   
+                   <div id="tea-box">
+                       <h3>トライフル</h3>
+                       <p>aaa</p>
+                   </div>
+                   
+                   <div id="tea-box">
+                       <h3>季節限定</h3>
+                       <p>aaa</p>
+                   </div>
+               </div>
+          
+                 <div id="bread">
+                   <div class="title">Bread Course</div>
+                   
+                   <div id="tea-box">
+                       <h3>パン⓵</h3>
+                       <p>aaa</p>
+                   </div>
+                   
+                   <div id="tea-box">
+                       <h3>パン⓶</h3>
+                       <p>aaa</p>
+                   </div>
+                   
+                   
+               </div>
+                 
+          
+            
+                    
+                
+                
+               
+               
+               
+               
+                       
+                   
+               
+          
+            
+           
+        </div>
+       
+    </div>
+    </div>
+    
+    
+</body>
+</html>
